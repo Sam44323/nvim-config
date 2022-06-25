@@ -1,6 +1,6 @@
 # Custom NVIM Config
 
-__This is the custom config for nvim local setup__
+__This is the plugins list for nvim local setup__
 
 # Plugins
 - 'morhetz/gruvbox'
