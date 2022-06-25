@@ -1,4 +1,3 @@
-ipod825/vim-netranger	dd
 set number
 set nocompatible	" be iMproved, required
 filetype off		" required
