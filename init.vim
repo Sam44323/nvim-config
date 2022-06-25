@@ -9,6 +9,7 @@ Plug 'preservim/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'github/copilot.vim'
 Plug 'neoclide/coc.nvim' , {'branch': 'release'}
+Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 Plug 'tpope/vim-sensible'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'kyazdani42/nvim-web-devicons'
