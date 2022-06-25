@@ -24,4 +24,7 @@ _This is the plugins list for nvim local setup_
 
 # Font
 - Fira Code Nerd Font
+
+# Terminal
+- Hyper
 ---
