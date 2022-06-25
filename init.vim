@@ -13,6 +13,10 @@ Plug 'tpope/vim-sensible'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'romgrk/barbar.nvim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+Plug 'ryanoasis/vim-devicons'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 colorscheme gruvbox
@@ -30,3 +34,4 @@ set tabstop=4 shiftwidth=4 softtabstop=0
 set smartindent
 nmap <c-s> :w<cr>
 imap <c-s> <esc>:w<cr>a
+set encoding=UTF-8
