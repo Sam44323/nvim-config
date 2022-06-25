@@ -1,5 +1,7 @@
 set number
 set nocompatible	" be iMproved, required
+set modifiable
+set buftype=
 filetype off		" required
 
 call plug#begin('~/.config/nvim/plugged')
