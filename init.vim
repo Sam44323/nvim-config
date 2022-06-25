@@ -12,6 +12,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'github/copilot.vim'
 Plug 'neoclide/coc.nvim' , {'branch': 'release'}
 Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
+Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 Plug 'tpope/vim-sensible'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'kyazdani42/nvim-web-devicons'
@@ -39,3 +40,5 @@ set smartindent
 nmap <c-s> :w<cr>
 imap <c-s> <esc>:w<cr>a
 set encoding=UTF-8
+
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.svelte,*.yaml,*.html PrettierAsync

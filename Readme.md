@@ -17,6 +17,7 @@ _This is the plugins list for nvim local setup_
 - 'nvim-treesitter/nvim-treesitter'
 - 'kyazdani42/nvim-web-devicons'
 - 'romgrk/barbar.nvim'
+- 'prettier/vim-prettier'
 - 'iamcco/markdown-preview.nvim'
 - 'vim-airline/vim-airline'
 - 'vim-airline/vim-airline-themes'
