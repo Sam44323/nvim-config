@@ -40,6 +40,7 @@ set smartindent
 nmap <c-s> :w<cr>
 imap <c-s> <esc>:w<cr>a
 set encoding=UTF-8
+let g:ctrlp_max_files=0
 
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.svelte,*.yaml,*.html PrettierAsync
 let g:prettier#config#trailing_comma = 'all'
