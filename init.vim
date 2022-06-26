@@ -42,3 +42,4 @@ imap <c-s> <esc>:w<cr>a
 set encoding=UTF-8
 
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.svelte,*.yaml,*.html PrettierAsync
+let g:prettier#config#trailing_comma = 'all'
