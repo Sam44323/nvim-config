@@ -1,5 +1,3 @@
-lua require 'init'
-
 set number
 set nocompatible	" be iMproved, required
 set modifiable
