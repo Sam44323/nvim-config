@@ -1,4 +1,4 @@
-# Custom NVIM Confgg
+# Custom NVIM Config
 
 _This is the plugins list for nvim local setup_
 
