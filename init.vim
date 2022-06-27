@@ -1,3 +1,5 @@
+lua require 'init'
+
 set number
 set nocompatible	" be iMproved, required
 set modifiable
@@ -17,7 +19,6 @@ Plug 'tpope/vim-sensible'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'kyazdani42/nvim-web-devicons',
 Plug 'neovim/nvim-lspconfig'
-Plug 'nvim-telescope/telescope.nvim'
 Plug 'romgrk/barbar.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'vim-airline/vim-airline'
