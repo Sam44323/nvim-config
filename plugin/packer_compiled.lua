@@ -69,6 +69,76 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
+  },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
+  },
+  ["cmp-cmdline"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/cmp-cmdline",
+    url = "https://github.com/hrsh7th/cmp-cmdline"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
+  },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
+  ["ctrlp.vim"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/ctrlp.vim",
+    url = "https://github.com/kien/ctrlp.vim"
+  },
+  gruvbox = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
+  nerdtree = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/nerdtree",
+    url = "https://github.com/preservim/nerdtree"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -83,6 +153,46 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
+  },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
+  },
+  ["vim-airline-themes"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
+    url = "https://github.com/vim-airline/vim-airline-themes"
+  },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-hexokinase"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/vim-hexokinase",
+    url = "https://github.com/rrethy/vim-hexokinase"
+  },
+  ["vim-multiple-cursors"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/vim-multiple-cursors",
+    url = "https://github.com/terryma/vim-multiple-cursors"
+  },
+  ["vim-prettier"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/vim-prettier",
+    url = "https://github.com/prettier/vim-prettier"
+  },
+  ["vim-sensible"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/vim-sensible",
+    url = "https://github.com/tpope/vim-sensible"
   }
 }
 

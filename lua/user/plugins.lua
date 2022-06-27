@@ -61,6 +61,11 @@ return packer.startup(function(use)
   use 'vim-airline/vim-airline-themes'
   use 'terryma/vim-multiple-cursors'
   use 'ryanoasis/vim-devicons'
+  use "hrsh7th/nvim-cmp" -- The completion plugin
+  use "hrsh7th/cmp-buffer" -- buffer completions
+  use "hrsh7th/cmp-path" -- path completions
+  use "hrsh7th/cmp-cmdline" -- cmdline completions
+  use "saadparwaiz1/cmp_luasnip" -- snippet completions
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
