@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -223,6 +228,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
+  },
+  ["vim-bbye"] = {
+    loaded = true,
+    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/vim-bbye",
+    url = "https://github.com/moll/vim-bbye"
   },
   ["vim-devicons"] = {
     loaded = true,

@@ -7,6 +7,7 @@ require "user.telescope";
 require "user.treesitter";
 require "user.comment";
 require "user.nvim-tree";
+require "user.bufferline";
 
 vim.opt.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme gruvbox]])

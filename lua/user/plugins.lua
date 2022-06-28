@@ -60,6 +60,10 @@ return packer.startup(function(use)
   use 'ryanoasis/vim-devicons'
   use 'kyazdani42/nvim-tree.lua'
 
+  --buffer
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
+
   -- completions
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
