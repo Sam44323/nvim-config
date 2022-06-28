@@ -59,6 +59,7 @@ return packer.startup(function(use)
   use 'vim-airline/vim-airline-themes'
   use 'terryma/vim-multiple-cursors'
   use 'ryanoasis/vim-devicons'
+  use 'kyazdani42/nvim-tree.lua'
 
   -- completions
   use "hrsh7th/nvim-cmp" -- The completion plugin
