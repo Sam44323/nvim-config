@@ -144,11 +144,6 @@ _G.packer_plugins = {
     path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
   },
-  nerdtree = {
-    loaded = true,
-    path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/nerdtree",
-    url = "https://github.com/preservim/nerdtree"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/suranjanduttamoitra/.local/share/nvim/site/pack/packer/start/nvim-cmp",

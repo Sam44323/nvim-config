@@ -46,7 +46,6 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use 'morhetz/gruvbox'
   use 'tpope/vim-fugitive'
-  use 'preservim/nerdtree'
   use 'kien/ctrlp.vim'
   use 'github/copilot.vim'
   use 'neoclide/coc.nvim'
